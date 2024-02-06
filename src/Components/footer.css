@@ -1,0 +1,10 @@
+.kka{
+    text-align: center;
+}
+
+.kka:hover{
+    background-color: black;
+    animation: kka 2s ;
+    color: white;
+    border-radius: 20px;
+}
