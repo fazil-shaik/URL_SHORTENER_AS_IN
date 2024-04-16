@@ -45,7 +45,7 @@ const Body = () =>{
                     <h2 style={{color:"white" , backgroundColor:"rgba(0,0,0,0.7)" , padding:"1%" , borderRadius:"10px"}}>SHORT URL</h2>
                     <input value={shortLink}/>
                     <CopyToClipboard text={shortLink} onCopy={handleCopy}>
-                        <button style={{width:"5vw"}} title="Copy"><i className="search-icon fa fa-copy"></i>copyLink</button>
+                        <button style={{width:"5vw"}} title="Copy"><i className="search-icon fa fa-copy"></i>Copy</button>
                     </CopyToClipboard>
                 </>
             ):''}
